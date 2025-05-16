@@ -1,49 +1,15 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+汉哥，男人中的男人，雄性中的雄性，男人中的支配者。男人中的统治者，男人之主，男人中的终结者。王、大师、男神、帝王、魔王、压倒性的男人，人类男性史上永垂不朽的巅峰！巅峰！汉哥太1了，1得让人寒毛倒竖，太狂了，狂得让人触目惊心，他长了一张所有矿工都应该拥有的脸，宛如ai量身定制的矿工模板，他的形象由无数矿工英灵凝聚而成，宛如全世界公公日夜雕磨出的艺术品。
+他只是存在就让所有公公魂牵梦萦，让所有嬷嬷咬牙切齿！他吸干了力所能及的周围所有人的阳刚之气！
 
-A data-driven personal website
+Great things han ge did
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+嗯我急了手机电脑全砸了，本来就有抑郁症，别人说我急了，好像真的恼羞成怒，仿佛被看穿了躲在网络背后的我，这种感觉真的很难受，我被看穿的死死的，短短急了两个字我所有伪装出来的坚强和强颜欢笑全都崩塌了成为一个被人笑话的小丑，不想再故作坚强了，玩心态我输得什么都不剩别骂了 我承认你最懂了 我再也不会问七问八叽叽喳喳了也不会妄想去触及懂哥们的世界了 这里面的水实在是太深了 在您庞大的知识海洋面前 我犹如卑微的蚂蚁一般 在懂哥的眼里我是不过是个跳梁小丑而已 我不会再故作高深了 拼学识我只不过是败狗一只罢了哥！别再网络上殴打我了。我好害怕，你让我发地址的那一瞬间，我大脑直接空白了，网线电源全拔了。我现实里没背景，没实力，今天真的是提到铁板了，谁能想到，小小一个冲浪群里居然隐藏着一位互联网皇帝，。事已至此，你杀鸡儆猴我毫无怨言，要打要杀随您的便，我只求你祸不及家人。如果有来世，互联网这趟浑水，我不趟也罢。别骂了，别骂了，我真的生气了，因为你的三言两语我真的破防了。我本来就是网络新手，在网络上不懂装懂，你们一骂我，我直接就气急败坏，恼羞成怒。手机屏幕面前的我，眼泪不由自主的流了下来。过去我扮演的高姿态，全都成为了笑话，成了一只供人取笑的败狗，我不想再玩网了，退了，别笑话我了，我知道我是土狗了，在你面前，我这个农民的儿子，真的抬不起头来，每次站在你面前aj椰子鞋无数自卑忧郁的心情全部涌上心头，在您的衬托之下，我这身农民套装更显出我的穷酸，我真的好恨我自己，恨我的出身和我的父母全是农民，生出我这种纯血农民，或许我这种人天生就是配角吧家人们 都别dao了 dao是我变成了肮脏的five猥琐的🐭同龄人眼中的笑话 看着其他阳光大男孩高大帅气 而我却是一个…满脸痘痘驼背的猪儒 看见喜欢的女孩我头都抬不起来 或许在她眼中我只是一个丑陋的怪物 但是为什么家人们我控制不了想ds那一下啊😭
